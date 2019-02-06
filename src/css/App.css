@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.background-button{
+ background: blue;
+ color:white;
+ padding:0.5rem;
+ position: relative;
+ cursor: pointer;
+}
+.img-cate{
+  height:175px;
+  width:140px;
+}
+.img-arrow{
+  position:absolute;
+  right: 10px;
+}
+.cont{
+height:90vh;
+width:90%;
+margin:0 auto;
+}
+.head{
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.d-in-block{
+  display: inline-block;
+}
+.bread{
+  font-weight: bold;
+}
+.img-bcontainer{
+margin:0 auto;
+justify-content: flex-start;
+display:flex;
+flex-wrap: wrap;
+}
+.img-contianer{ 
+  height:265x;
+  width:200px;
+  margin-left: 2rem;
+  margin-bottom:2rem;
+  border: 1px rgba(0,0,0,0.2) solid;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  font-size: calc(3vmin);
+  color: white;
+  text-align: left;
+  padding-left:2rem;
+}
+.App-header-com{
+  flex-grow: 1;
+}
+.App-header-com-1{
+  display:inline-block;
+  position: relative;
+  top:-6vh;
+  left:15vw;
+}
+.d-none{
+  display:none;
+}
+.active{
+  color:black;
+}
+.list-item:hover .active{
+  display:block !important
+}
+.content{
+  position:relative;
+  top:25%;
+  left:25vw;
+  width:50vw;
+}
+
+.container{
+  position:relative;
+  height:80vh;
+}
+.App-link {
+  color: #61dafb;
+}
+.btn{
+  background-color: #282c34;
+  text-align: left;
+  color:white;
+  height: calc(15px + 2vmin);
+  width: 10vw;
+  border: none;
+  font-size: calc(2vmin);
+  position: relative;
+  cursor: pointer;
+}
+.mi{
+  z-index: 1;
+  position:absolute;
+  display:none;
+}
+
+.list-item{
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  font-size:14px;
+  padding:10px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.list-item-1{
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  font-size:14px;
+  padding:10px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.list-item:hover{
+background:#f9f9f9cb;
+}
+.App-header-com-1:hover .mi{
+  display:block;
+}
+.changeframe{
+  position:absolute;
+  left:9vw;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
